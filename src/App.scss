@@ -1,0 +1,11 @@
+.green{
+  background-blend-mode: #00796b !important;
+  font-weight: 500 !important;
+  color: #fff !important;
+  &:hover{
+    background: #00685c;
+  }
+}
+.blue{
+  background-color: #2d63da;
+}

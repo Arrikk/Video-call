@@ -1,0 +1,53 @@
+.header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    box-sizing: border-box;
+    .logo{
+        display: flex;
+        align-items: center;
+        width: 124px;
+        img{
+         width: 100%;   
+        }
+        .help-text{
+            color: #5f6368;
+            padding-left: 4px;
+            font-size: 22px;
+        }
+    }
+    .action-block{
+        display: flex;
+        align-items: center;
+        .header-time{
+            font-size: 25px;
+            color: #5f6368;
+            font-weight: 400;
+            margin-right: 25px;
+        }
+        .icon-block{
+            font-size: 50px;
+            color: #5f6368;
+            padding: 10px;
+        }
+        .action-end{
+            margin-left: 25px;
+            display: flex;
+            align-items: center;
+        }
+        .icon-avatar{
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            height: 40px;
+            width: 40px;
+            font-size: 25px;
+            border-radius: 50px;
+            background: green;
+            color: #fff;
+            margin-left: 10px;
+        }
+
+    }
+}

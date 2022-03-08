@@ -1,0 +1,146 @@
+.meeting-info-block {
+  position: absolute;
+  top: 50px;
+  left: 50px;
+  background: #fff;
+  border-radius: 10px;
+  width: 310px;
+  padding: 25px;
+  .meeting-header {
+    display: flex;
+    align-items: flex-end;
+    justify-content: flex-end;
+    color: #222;
+    h3 {
+      margin: 0;
+      font-size: 18px;
+      font-weight: 400;
+      &.name{
+        font-size: 13px;
+      }
+    }
+    .icon {
+      cursor: pointer;
+      font-size: 20px;
+      &.needs-name{
+        display: none
+      }
+    }
+  }
+  .add-people-btn {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: #2d63da;
+    color: #fff;
+    font-size: 18px;
+    padding: 10px;
+    border-radius: 5px;
+    border: none;
+    margin-top: 20px;
+    cursor: pointer;
+    &.set-name{
+      font-size: 10px;
+    }
+    .icon {
+      font-size: 12px;
+      margin-right: 10px;
+    }
+  }
+  .info-text {
+    margin: 10px 0;
+    font-size: 14px;
+    color: #222;
+  }
+  .meet-link {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background: #f1f3f5;
+    padding: 5px;
+    border-radius: 5px;
+    margin: 10px 0;
+    span {
+      font-weight: 600;
+      font-size: 12px;
+      border: none;
+      outline: none;
+      background: none;
+      flex: 1;
+      color: #555;
+    }
+    .icon {
+      cursor: pointer;
+      color: #555;
+      font-size: 12px;
+    }
+  }
+  .permission-text {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 10px 0;
+    .icon {
+      color: #2d63da;
+      font-size: 20px;
+      margin-right: 10px;
+    }
+    &.meeting-name{
+      border: 1px solid #2d63da;
+      border-radius: 5px;
+      padding-left: 2px;
+      input{
+        width: 100%;
+        padding: 5px;
+        border: none;
+        &:focus{
+          outline: none;
+        }
+      }
+    }
+  }
+  .small-text {
+    font-size: 13px;
+    color: #222;
+  }
+}
+
+
+.call-notification-container{
+  position: absolute;
+  top: 50px;
+  left: 50%;
+  background: #fff;
+  border-radius: 10px;
+  width: 250px;
+  padding: 15px;
+  .call-notification{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    .icon-block{
+      display: flex;
+      align-items: center;
+      .icon-item{    
+        background-color: #f6f6f6;
+        height: 40px;
+        box-shadow: 0 0 10px #eee;
+        width: 40px;
+        display: flex;
+        margin-right: 20px;
+        border-radius: 50px;
+        align-items: center;
+        justify-content: center;
+        cursor: pointer;
+        .green{
+          color: #38b30f;
+          font-size: 17px;
+        }
+        .red{
+          color: red;
+          font-size: 17px;
+        }
+      }
+    }
+  }
+}
